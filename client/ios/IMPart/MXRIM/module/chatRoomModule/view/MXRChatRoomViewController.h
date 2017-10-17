@@ -1,0 +1,15 @@
+//
+//  MXRChatRoomViewController.h
+//  huashida_home
+//
+//  Created by Martin.Liu on 2017/9/20.
+//  Copyright © 2017年 苏州梦想人软件科技有限公司. All rights reserved.
+//
+
+#import "JSQMessagesViewController.h"
+
+@interface MXRChatRoomViewController : JSQMessagesViewController
+
+@property (nonatomic, strong) NSString *chatRoomId;
+
+@end
